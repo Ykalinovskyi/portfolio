@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>YKalinovskyi сайт портфолио</title>
+</head>
+<body class="page-body">
+    <header class="header">
+        <div class="header__container">
+            <address class="header__contact">
+                <span class="visually-hidden">Контактный номер.</span>
+                <a class="header__contact_phone" href="tel:+79785387805">+7 <span>978</span> 538-78-05</a>
+              </address>
+            <button class="header__burger burger">
+                <span class="visually-hidden">Кнопка переключатель меню.</span>
+                <span class="burger__line"></span>
+            </button>
+            <nav class="header__navigation navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link active">Главная</a></li>
+                    <li class="navigation__item"><a href="#skills" class="navigation__link">Мои навыки</a></li>
+                    <li class="navigation__item"><a href="#portfolio" class="navigation__link">Портфолио</a></li>
+                    <li class="navigation__item"><a href="#contacts" class="navigation__link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+    <main class="page-main">
+        <h1 class="visually-hidden">Личный сайт портфолио Евгения Калиновского.</h1>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero__info">
+                    <h2 class="hero__title">Евгений Калиновский</h2>
+                    <div class="hero__subtitle">
+                        <img class="hero__icon"src="img/developer-icon.svg" width="30" height="30" alt="Декоративная картинка.">
+                        WEB-разработчик
+                    </div>
+                    <p class="hero__text" data-aos="fade-right">
+                        Привет из солнечного городка на южном побережье Крыма - Севастополя.
+                        Я интересуюсь <b>HTML / CSS</b> версткой сайтов и созданию приложений использую язык программирования <b>JavaScript.</b>                                        
+                    </p>
+                    <p class="hero__text" data-aos="fade-right">
+                        За моими плечами курсы в онлайн школе <a href="https://htmlacademy.ru" target="_blank">Html Academy</a>, успешно выполнил и защитил дипломный проект.
+                    </p>
+                </div>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="img/developer-avatar-desktop.jpg">
+                    <img class="hero__avatar" src="img/developer-avatar-mobile.jpg" alt="аватар разработчика." width="375" height="375">
+                </picture>
+            </div>
+        </section>
+        <section id="skills" class="skills">
+            <span class="visually-hidden">Блок о навыках автора.</span>
+            <div class="container">
+                <h2 class="skills__title">Для работы использую</h2>
+            </div>
+            <ul class="skills__list" data-aos="zoom-in">
+                <li class="skills__item">
+                    <img class="skills__img" src="img/skills/html-icon.svg" alt="Иконка HTML5." width="70" height="80">
+                    <span class="skills__name">HTML 5</span>
+                    <div class="skills__rating">
+                        <img class="skills__rating_icon" src="img/skills/star-icon.svg" width="16" height="15" alt="Декоративный элемент, звезда.">
+                        <span>5</span>
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__img" src="img/skills/css-icon.svg" alt="Иконка Css3." width="70" height="80">
+                    <span class="skills__name">CSS 3</span>
+                    <div class="skills__rating">
+                        <img class="skills__rating_icon" src="img/skills/star-icon.svg" width="16" height="15" alt="Декоративный элемент, звезда.">
+                        <span>5</span>
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__img" src="img/skills/javascript-icon.svg" alt="Иконка JavaScript." width="90" height="90">
+                    <span class="skills__name">JavaScript</span>
+                    <div class="skills__rating">
+                        <img class="skills__rating_icon" src="img/skills/star-icon.svg" width="16" height="15" alt="Декоративный элемент, звезда.">
+                        <span>3</span>
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__img skills__img_figma" src="img/skills/gulp-icon.svg" alt="Иконка Gulp." width="40" height="90">
+                    <span class="skills__name">Gulp</span>
+                    <div class="skills__rating">
+                        <img class="skills__rating_icon" src="img/skills/star-icon.svg" width="16" height="15" alt="Декоративный элемент, звезда.">
+                        <span>3</span>
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__img" src="img/skills/github-icon.svg" alt="Иконка Git." width="80" height="80">
+                    <span class="skills__name">Git</span>
+                    <div class="skills__rating">
+                        <img class="skills__rating_icon" src="img/skills/star-icon.svg" width="16" height="15" alt="Декоративный элемент, звезда.">
+                        <span>4</span>
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <img class="skills__img" src="img/skills/figma-icon.svg" alt="Иконка Figma." width="80" height="80">
+                    <span class="skills__name">Figma</span>
+                    <div class="skills__rating">
+                        <img class="skills__rating_icon" src="img/skills/star-icon.svg" width="16" height="15" alt="Декоративный элемент, звезда.">
+                        <span>4</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <span class="visually-hidden">пример моих работ.</span>
+            <div class="container">
+                <h2 class="portfolio__title">Мои работы</h2>
+                <div class="slider__button-wrapper">
+                    <button class="slider__button slider__button_prev" type="button">
+                        <span class="visually-hidden">Предыдущее фото</span>
+                        <svg class="slider__icon slider__icon_prev" width="24" height="20" viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.6161 17.2411C13.128 17.7292 13.128 18.5208 13.6161 19.0089C14.1042 19.497 14.8958 19.497 15.3839 19.0089L22.625 11.7677C23.6012 10.7915 23.6012 9.2085 22.625 8.23225L15.3839 0.991113C14.8958 0.502963 14.1042 0.502963 13.6161 0.991113C13.128 1.47927 13.128 2.27072 13.6161 2.75889L19.6073 8.75H2C1.30965 8.75 0.75 9.30962 0.75 10C0.75 10.6904 1.30965 11.25 2 11.25H19.6073L13.6161 17.2411Z"/>
+                        </svg>
+                    </button>
+                    <button class="slider__button slider__button_next" type="button">
+                        <span class="visually-hidden">Следующее фото</span>
+                        <svg class="slider__icon " width="24" height="20" viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.6161 17.2411C13.128 17.7292 13.128 18.5208 13.6161 19.0089C14.1042 19.497 14.8958 19.497 15.3839 19.0089L22.625 11.7677C23.6012 10.7915 23.6012 9.2085 22.625 8.23225L15.3839 0.991113C14.8958 0.502963 14.1042 0.502963 13.6161 0.991113C13.128 1.47927 13.128 2.27072 13.6161 2.75889L19.6073 8.75H2C1.30965 8.75 0.75 9.30962 0.75 10C0.75 10.6904 1.30965 11.25 2 11.25H19.6073L13.6161 17.2411Z"/>
+                        </svg>    
+                    </button> 
+                </div>
+                <div class="slider"> 
+                    <div class="slider__line">
+                        <img class="slider__images" src="img/portfolio/sedona-index.jpg" width="300" height="400" alt="Сайт туристического городка Sedona, главная страница." data-name="sedona">
+                        <img class="slider__images" src="img/portfolio/sedona-inner.png" width="300" height="400" alt="Сайт туристического городка Sedona,  внутренняя страница." data-name="sedona">
+                        <img class="slider__images" src="img/portfolio/barbershop-index.jpg" width="300" height="400" alt="Cайт для мужского салона красоты, главная страница." data-name="barbershop">
+                        <img class="slider__images" src="img/portfolio/barbershop-inner.jpg" width="300" height="400" alt="Cайт для мужского салона красоты, внутренняя страница." data-name="barbershop">
+                    </div>
+                </div>
+                <a class="slider__alt_text" href="" target="_blank"></a>
+            </div> 
+        </section>
+    </main>
+     <footer class="main-footer" id="contacts">
+        <span class="visually-hidden">Блок контактов</span>
+        <div class="container">
+            <h2 class="footer__title">Связаться со мной</h2>
+            <address class="footer__contact">
+                <span class="visually-hidden">Контактный номер.</span>
+                <a class="footer__contact_phone" href="tel:+79785387805">+7 <span>978</span> 538-78-05</a>
+            </address>
+            <a class="footer__link button" href="mailto:ykalinovskyi@gmail.com" data-aos="flip-up">Отправить сообщение</a>
+            <ul class="footer__list social__list">
+                <li class="social__item">
+                    <a class="social__link" href="https://github.com/Ykalinovskyi" target="_blank">
+                        <svg class="social__icon" width="40" height="30">
+                            <use xlink:href="img/social-sprite.svg#social-git"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="https://vk.com/ykalinovskyi" target="_blank">
+                        <svg class="social__icon" width="24" height="15">
+                            <use xlink:href="img/social-sprite.svg#social-vk"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="https://t.me/ykalinovskyi" target="_blank">
+                        <svg class="social__icon" width="24" height="20">
+                            <use xlink:href="img/social-sprite.svg#social-tme"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <p class="footer__copyright">&copy; 2023 Резюме. Евгений Калиновский</p>
+        </div>
+    </footer>
+    <script defer src="js/app.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
